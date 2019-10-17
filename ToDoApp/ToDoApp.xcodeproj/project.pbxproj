@@ -58,6 +58,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		1E84BD772358C02900776938 /* Supports */ = {
+			isa = PBXGroup;
+			children = (
+				1EE812D723573E430013C63B /* Info.plist */,
+			);
+			path = Supports;
+			sourceTree = "<group>";
+		};
 		1EE812BD23573E410013C63B = {
 			isa = PBXGroup;
 			children = (
@@ -84,7 +92,7 @@
 				1EE812CD23573E410013C63B /* ContentView.swift */,
 				1EE812CF23573E430013C63B /* Assets.xcassets */,
 				1EE812D423573E430013C63B /* LaunchScreen.storyboard */,
-				1EE812D723573E430013C63B /* Info.plist */,
+				1E84BD772358C02900776938 /* Supports */,
 				1EE812D123573E430013C63B /* Preview Content */,
 			);
 			path = ToDoApp;
@@ -366,7 +374,7 @@
 				DEVELOPMENT_ASSET_PATHS = "\"ToDoApp/Preview Content\"";
 				DEVELOPMENT_TEAM = Y827F3LXSQ;
 				ENABLE_PREVIEWS = YES;
-				INFOPLIST_FILE = ToDoApp/Info.plist;
+				INFOPLIST_FILE = ToDoApp/Supports/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -386,7 +394,7 @@
 				DEVELOPMENT_ASSET_PATHS = "\"ToDoApp/Preview Content\"";
 				DEVELOPMENT_TEAM = Y827F3LXSQ;
 				ENABLE_PREVIEWS = YES;
-				INFOPLIST_FILE = ToDoApp/Info.plist;
+				INFOPLIST_FILE = ToDoApp/Supports/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
