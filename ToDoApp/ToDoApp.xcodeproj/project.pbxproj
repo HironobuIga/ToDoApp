@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1E72F6322372E6790032D09B /* development.entitlements in Resources */ = {isa = PBXBuildFile; fileRef = 1E72F6312372E6790032D09B /* development.entitlements */; };
 		1EE812CA23573E410013C63B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EE812C923573E410013C63B /* AppDelegate.swift */; };
 		1EE812CC23573E410013C63B /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EE812CB23573E410013C63B /* SceneDelegate.swift */; };
 		1EE812CE23573E410013C63B /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EE812CD23573E410013C63B /* ContentView.swift */; };
@@ -27,6 +28,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		1E72F6302372E5F80032D09B /* production.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = production.entitlements; sourceTree = "<group>"; };
+		1E72F6312372E6790032D09B /* development.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = development.entitlements; sourceTree = "<group>"; };
 		1EE812C623573E410013C63B /* ToDoApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ToDoApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1EE812C923573E410013C63B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		1EE812CB23573E410013C63B /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -87,6 +90,8 @@
 		1EE812C823573E410013C63B /* ToDoApp */ = {
 			isa = PBXGroup;
 			children = (
+				1E72F6302372E5F80032D09B /* production.entitlements */,
+				1E72F6312372E6790032D09B /* development.entitlements */,
 				1EE812C923573E410013C63B /* AppDelegate.swift */,
 				1EE812CB23573E410013C63B /* SceneDelegate.swift */,
 				1EE812CD23573E410013C63B /* ContentView.swift */,
@@ -197,6 +202,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				1EE812D623573E430013C63B /* LaunchScreen.storyboard in Resources */,
+				1E72F6322372E6790032D09B /* development.entitlements in Resources */,
 				1EE812D323573E430013C63B /* Preview Assets.xcassets in Resources */,
 				1EE812D023573E430013C63B /* Assets.xcassets in Resources */,
 			);
@@ -370,6 +376,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = ToDoApp/development.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_ASSET_PATHS = "\"ToDoApp/Preview Content\"";
 				DEVELOPMENT_TEAM = Y827F3LXSQ;
@@ -390,6 +397,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = ToDoApp/production.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_ASSET_PATHS = "\"ToDoApp/Preview Content\"";
 				DEVELOPMENT_TEAM = Y827F3LXSQ;
