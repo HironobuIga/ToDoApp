@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		1E72F6322372E6790032D09B /* development.entitlements in Resources */ = {isa = PBXBuildFile; fileRef = 1E72F6312372E6790032D09B /* development.entitlements */; };
+		1E72F63D2377E2070032D09B /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 1E72F63C2377E2070032D09B /* GoogleService-Info.plist */; };
 		1EE812CA23573E410013C63B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EE812C923573E410013C63B /* AppDelegate.swift */; };
 		1EE812CC23573E410013C63B /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EE812CB23573E410013C63B /* SceneDelegate.swift */; };
 		1EE812CE23573E410013C63B /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EE812CD23573E410013C63B /* ContentView.swift */; };
@@ -30,6 +31,7 @@
 /* Begin PBXFileReference section */
 		1E72F6302372E5F80032D09B /* production.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; name = production.entitlements; path = ../production.entitlements; sourceTree = "<group>"; };
 		1E72F6312372E6790032D09B /* development.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; name = development.entitlements; path = ../development.entitlements; sourceTree = "<group>"; };
+		1E72F63C2377E2070032D09B /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		1EE812C623573E410013C63B /* ToDoApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ToDoApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1EE812C923573E410013C63B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		1EE812CB23573E410013C63B /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -73,6 +75,7 @@
 		1E84BD772358C02900776938 /* Supports */ = {
 			isa = PBXGroup;
 			children = (
+				1E72F63C2377E2070032D09B /* GoogleService-Info.plist */,
 				1E72F6302372E5F80032D09B /* production.entitlements */,
 				1E72F6312372E6790032D09B /* development.entitlements */,
 				1EE812D723573E430013C63B /* Info.plist */,
@@ -211,6 +214,7 @@
 			files = (
 				1EE812D623573E430013C63B /* LaunchScreen.storyboard in Resources */,
 				1E72F6322372E6790032D09B /* development.entitlements in Resources */,
+				1E72F63D2377E2070032D09B /* GoogleService-Info.plist in Resources */,
 				1EE812D323573E430013C63B /* Preview Assets.xcassets in Resources */,
 				1EE812D023573E430013C63B /* Assets.xcassets in Resources */,
 			);
