@@ -1,0 +1,14 @@
+platform :ios, '13.0'
+
+target 'ToDoApp' do
+  use_frameworks!
+
+  # Pods for ToDoApp
+  pod 'Firebase/Analytics'
+
+  target 'ToDoAppTests' do
+    inherit! :search_paths
+    # Pods for testing
+  end
+
+end
